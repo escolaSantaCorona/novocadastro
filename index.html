@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-wrapper">
+    <form>
+        <div class="imagem">
+        <img src="escola.png" alt="">
+    </div>
+    <div class="form-title">
+        <h2>EMEF SANTA CORONA</h2>
+        <h2>CADASTRO DE ALUNOS</h2>
+      </div>
+        <div class="form-group">
+          <label for="id">ID:</label>
+          <input type="number" id="id" name="id" required>
+        </div>
+        <div class="form-group">
+          <label for="nome">Nome do Aluno:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="nascimento">Data de Nascimento:</label>
+          <input type="date" id="nascimento" name="nascimento" required>
+        </div>
+        <div class="form-group">
+          <label for="documento">Documento:</label>
+          <input type="text" id="documento" name="documento" required>
+        </div>
+        <div class="form-group">
+          <label for="livro">Livro:</label>
+          <input type="text" id="livro" name="livro" required>
+        </div>
+        <div class="form-group">
+          <label for="folha">Folha:</label>
+          <input type="text" id="folha" name="folha" required>
+        </div>
+        <div class="form-group">
+          <label for="mae">Nome da Mãe:</label>
+          <input type="text" id="mae" name="mae" required>
+        </div>
+        <div class="form-group">
+          <label for="pai">Nome do Pai:</label>
+          <input type="text" id="pai" name="pai" required>
+        </div>
+        <div class="form-group">
+            <label for="turma">Turma</label>
+            <select id="turma" name="turma" required>
+              <option value="">Selecione a Turma</option>
+              <option value="Educação Infantil-Turma de 4 anos">Educação Infantil-Turma de 4 anos</option>
+              <option value="Educação Infantil-Turma de 5 anos">Educação Infantil-Turma de 5 anos</option>
+              <option value="1º ANO A">1º ANO A</option>
+              <option value="2º ANO A">2º ANO A</option>
+              <option value="3º ANO A">3º ANO A</option>
+              <option value="3º ANO B">3º ANO B</option>
+              <option value="4º ANO A">4º ANO A</option>
+              <option value="5º ANO A">5º ANO A</option>
+              <option value="5º ANO B">5º ANO B</option>
+              <option value="6º ANO A">6º ANO A</option>
+              <option value="6º ANO B">6º ANO B</option>
+              <option value="7º ANO A">7º ANO A</option>
+              <option value="7º ANO B">7º ANO B</option>
+              <option value="8º ANO A">8º ANO A</option>
+              <option value="8º ANO B">8º ANO B</option>
+              <option value="9º ANO A">9º ANO A</option>
+              <option value="9º ANO B">9º ANO B</option>
+            </select>
+          </div>
+        <div class="form-group">
+            <label for="Ano_fundamental">Ano do Ensino Fundamental</label>
+            <select id="Ano_fundamental" name="Ano_fundamental" required>
+              <option value="">Selecione o Ano do Ensino Fundamental</option>
+              <option value="Educação Infantil-Turma de 4 anos">Educação Infantil-Turma de 4 anos</option>
+              <option value="Educação Infantil-Turma de 5 anos">Educação Infantil-Turma de 5 anos</option>
+              <option value="1° ano do ensino fundamental">1° ano do ensino fundamental</option>
+              <option value="2° ano do ensino fundamental">2° ano do ensino fundamental</option>
+              <option value="3° ano do ensino fundamental">3° ano do ensino fundamental</option>
+              <option value="4° ano do ensino fundamental">4° ano do ensino fundamental</option>
+              <option value="5° ano do ensino fundamental">5° ano do ensino fundamental</option>
+              <option value="6° ano do ensino fundamental">6° ano do ensino fundamental</option>
+              <option value="7° ano do ensino fundamental">7° ano do ensino fundamental</option>
+              <option value="8° ano do ensino fundamental">8° ano do ensino fundamental</option>
+              <option value="9° ano do ensino fundamental">9° ano do ensino fundamental</option>
+            </select>
+          </div>
+        <div class="form-group">
+          <label for="turno">Turno:</label>
+          <select id="turno" name="turno" required>
+            <option value="">Selecione o turno</option>
+            <option value="Manhã">Manhã</option>
+            <option value="Tarde">Tarde</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="movimentacao">Movimentação:</label>
+          <select id="movimentacao" name="movimentacao" required>
+            <option value="">Selecione a movimentação</option>
+            <option value="A/C">A/C</option>
+            <option value="T">Transferência</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="data-movimentacao">Data da Movimentação:</label>
+          <input type="date" id="data-movimentacao" name="data-movimentacao" required>
+        </div>
+        <div class="form-group">
+            <label for="naturalidade">Naturalidade:</label>
+            <input type="text" id="naturalidade" name="naturalidade" required>
+            
+              </div>
+              <div class="form-group">
+                <label for="raca">Raça/Etnia:</label>
+                <select id="raca" name="raca" required>
+                  <option value="">Selecione a raça/etnia</option>
+                  <option value="Branco">Branco</option>
+                  <option value="Negro">Negro</option>
+                  <option value="Pardo">Pardo</option>
+                  <option value="Indígena">Indígena</option>
+                  <option value="Amarelo">Amarelo</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes"></textarea>
+              </div>
+              <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+</body>
+</html>
